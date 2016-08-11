@@ -1,0 +1,13 @@
+﻿{
+    "palo_server": "127.0.0.1",
+    "palo_userid": "admin",
+    "palo_passwd": "0x21232F297A57A5A743894A0E4A801FC3",
+    "max_sessions_per_server": 3,
+    "save_sessions_per_server": 2,
+    "log_file" : true,
+    "log_format": ":date[iso] :remote-addr :method :url :status :res[content-length]",
+    "app_title": "ApaloJS Express Demo",
+    "palo_allowdatabases": "Biker,Demo1,Demo2",
+    "palo_allowsetdata": false
+
+}

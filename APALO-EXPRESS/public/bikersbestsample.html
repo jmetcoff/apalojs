@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>APaloJS Sample</title>
+    <link rel="stylesheet" href="stylesheets/table3.css" type="text/css" />
+</head>
+<body>
+    <h1>BIKERSBEST MANAGEMENT REPORT SAMPLE</h1>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Year:&nbsp;
+    <select id="year" onchange="MGMTREPORT.selectdate()" style="position: relative; top: 0px">
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+    </select>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Month:&nbsp;
+    <select id="month" onchange="MGMTREPORT.selectdate()" name="D1" style="position: relative; top: 0px">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Depth:&nbsp;
+    <select id="depth" onchange="MGMTREPORT.retrievesummary()" style="position: relative; top: 0px">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select>
+    <p/><p/>
+
+    <table class="sumtbl" id="bikersumtbl">
+        <thead>
+        <tr>
+            <th class="sumtbl-leftbold"></th>
+            <th class="sumtbl-leftbold">&nbsp;</th>
+            <th class="sumtbl-centerbold" id="saymonth" colspan="2">January</th>
+            <th class="sumtbl-leftbold"></th>
+            <th class="sumtbl-centerbold" colspan="2">Year to Date</th>
+        </tr>
+        <tr>
+            <th class="sumtbl-leftbold">&nbsp;</th>
+            <th class="sumtbl-leftbold">&nbsp;</th>
+            <th class="sumtbl-centerbold">Actual</th>
+            <th class="sumtbl-centerbold">Budget</th>
+            <th class="sumtbl-centerbold"></th>
+            <th class="sumtbl-centerbold">Actual</th>
+            <th class="sumtbl-centerbold">Budget</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="display:none">
+            <td class="sumtbl-leftbold">Units</td>
+            <td class="sumtbl-leftbold">All Products</td>
+            <td class="sumtbl-right">0</td>
+            <td class="sumtbl-right">0</td>
+            <td class="sumtbl-right"></td>
+            <td class="sumtbl-right">0</td>
+            <td class="sumtbl-right">0</td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <script src="/javascripts/jquery-2.1.3.min.js"></script>
+    <script src="/javascripts/bikersmgmtreport.js"></script>
+</body>
+</html>

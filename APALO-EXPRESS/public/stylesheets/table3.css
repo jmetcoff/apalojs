@@ -1,0 +1,66 @@
+﻿        .sumtbl {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border-color: #ccc;
+        }
+
+            .sumtbl td {
+                font-family: Arial, sans-serif;
+                font-size: 13px;
+                padding: 5px 5px;
+                border-style: solid;
+                border-width: 1px;
+                overflow: hidden;
+                word-break: normal;
+                border-color: #ccc;
+                color: #333;
+                background-color: #fff;
+            }
+
+            .sumtbl th {
+                font-family: Arial, sans-serif;
+                font-size: 13px;
+                font-weight: normal;
+                padding: 3px 5px;
+                border-style: solid;
+                border-width: 1px;
+                overflow: hidden;
+                word-break: normal;
+                border-color: #ccc;
+                color: #333;
+                background-color: #f0f0f0;
+            }
+
+            .sumtbl .sumtbl-leftbold {
+                text-align: left;
+                font-weight: bold;
+            }
+
+            .sumtbl .sumtbl-normal {
+                text-align: initial;
+                font-weight: normal;
+            }
+
+            .sumtbl .sumtbl-right {
+                text-align: right;
+                padding: 3px 10px;
+                vertical-align: middle;
+            }
+
+            .sumtbl .sumtbl-centerbold {
+                font-weight: bold;
+                vertical-align: top;
+            }
+            
+    .enMoney::before {
+        content:"$";
+    }
+    .negMoney {
+        color:red;
+    }
+    div.negMoney::before {
+        content:'($';
+    }
+    div.negMoney::after {
+        content:')';    
+    }
