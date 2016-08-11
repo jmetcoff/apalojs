@@ -5,9 +5,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>APALO-EXPRESS</Name>
     <RootNamespace>ExpressApp1</RootNamespace>
-    <Environment>PALO_SERVER=192.0.0.186
-PALO_USERID=admin
-PALO_PASSWD=0x6485A16D1C44D58FBEE2585DF2CCA66A</Environment>
+    <Environment></Environment>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
