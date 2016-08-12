@@ -1,6 +1,8 @@
 ﻿This project is called ApaloJS. It was implemented using Visual Studio 2015 Pro with Node.js Tools. 
 Copyright (c) 2016 Junction BI, LLC - Author: J. Metcoff, Contact: jerry.metcoff@junctionbi.com
 
+This project is released under the GNU GPLv3 license. See the LICENSE file for more information.
+
 This is a demonstration of the capabilities that can be achieved by combining modern HTML5/JS applications with a Jedox/Palo back-end.
 
 This service was created for demonstration purposes is not yet production ready. Some of the additional work items listed below should be completed first.
