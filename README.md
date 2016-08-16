@@ -5,7 +5,7 @@ This project is released under the GNU GPLv3 license. See the LICENSE file for m
 
 This is a demonstration of the capabilities that can be achieved by combining modern HTML5/JS applications with a Jedox/Palo back-end.
 
-This service was created for demonstration purposes is not yet production ready. Some of the additional work items listed below should be completed first.
+This service was created for demonstration purposes and is not yet production ready. Some of the additional work items listed below should be completed first.
 
 There is only a single public sample provided at present, it is based on the Bikers demo database. The default index page of the service has a link to that demo page. It is a very simplistic web page with choices for year, month, and depth for expanding. Note that one of the advantages of this service is that the entire table is retrieved in a single request to the service.
 
